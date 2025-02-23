@@ -6,7 +6,7 @@ const VerticalGallery = () => {
     <div className="max-w-7xl mx-auto p-4 py-10">
               {/* Description Paragraph */}
       <div className="my-8 max-w-2xl mx-auto text-center">
-        <p className="text-lg leading-relaxed ">
+        <p className="text-lg sm:text-2xl leading-relaxed ">
           Explore our curated collection of moments captured in vertical frames. 
           Each image tells its own story, preserving the height and grandeur of 
           these scenes while maintaining perfect visual harmony. From towering 
