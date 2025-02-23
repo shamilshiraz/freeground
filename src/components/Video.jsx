@@ -5,7 +5,7 @@ function Video() {
     <div className='h-[100vh]'>
             <video 
         className={` inset-0 w-full h-full object-cover`} 
-        src='./video.mp4' 
+        src='../video.mp4' 
         autoPlay 
         loop 
         muted 
