@@ -5,7 +5,7 @@ const VerticalGallery = () => {
   const { scrollYProgress } = useScroll(); // Track scrolling
 
   // Zoom-in effect on scroll
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 1.3]);
+  const scale = useTransform(scrollYProgress, [0, 1], [0.8, 1.3]);
 
   return (
     <div className="bg-black text-white font-[sohne]">

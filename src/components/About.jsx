@@ -5,7 +5,7 @@ const CreativePlayground = () => {
   const { scrollYProgress } = useScroll();
 
   // Scale effect for background only
-  const scale = useTransform(scrollYProgress, [0, 1], [0.1, 0.9]);
+  const scale = useTransform(scrollYProgress, [0, 1], [0.1, 1.2]);
 
   return (
     <div className="relative h-screen w-full bg-black overflow-hidden">
