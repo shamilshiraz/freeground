@@ -11,7 +11,7 @@ import ResponsiveContent from './components/Res'
 
 function App() {
   return (
-    <div>
+    <div className='bg-black'>
       <Marquee/>
       <Hero/>
       <PositionedParagraph/>
