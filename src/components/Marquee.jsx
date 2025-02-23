@@ -4,7 +4,7 @@ const Marquee = () => {
   const text = "SECOND SEASON IS COMING SOON • ";
 
   return (
-    <div className="sticky top-0 z-[100] border-y ">
+    <div className="sticky top-0 z-[100]  ">
     <div className="relative w-[100vw] overflow-hidden bg-black py-2">
       <div className="flex animate-marquee">
         <div className="flex whitespace-nowrap">
